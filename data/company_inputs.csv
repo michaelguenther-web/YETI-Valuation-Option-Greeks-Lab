@@ -1,2 +1,2 @@
-company,ticker,valuation_date,spot,strike,maturity_years,risk_free_rate,dividend_yield,volatility,volatility_type,option_type,exercise_style,lattice_steps,market_bid,market_ask,dcf_value,comps_value
-Asteron Systems,ASTR,2026-10-16,96,105,1.0,0.045,0.012,0.28,implied,call,european,200,8.10,8.60,106,101
+company,ticker,valuation_date,equity_valuation_date,spot,strike,expiration_date,maturity_years,risk_free_rate,dividend_yield,volatility,volatility_type,option_type,exercise_style,lattice_steps,market_bid,market_ask,contract_multiplier,volume,open_interest,dcf_value,comps_value,blended_value
+YETI Holdings Inc.,YETI,2026-11-13,2026-09-15,39.42,40.0,2026-11-20,0.019178082191780823,0.0432,0.0,0.379,expiration-level ATM implied,call,american,500,0.8,1.2,100,129,80,37.2974910118166,49.8128904048684,42.3036507690373

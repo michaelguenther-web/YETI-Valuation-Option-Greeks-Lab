@@ -1,9 +1,13 @@
-input_name,value,observation_date,source,method_or_note
-Spot price,96,2026-10-16,Synthetic,Closing price
-Risk-free rate,0.045,2026-10-16,Synthetic,Matched maturity
-Dividend yield,0.012,2026-10-16,Synthetic,Continuous yield
-Volatility,0.28,2026-10-16,Synthetic,Implied volatility
-Option bid,8.10,2026-10-16,Synthetic,Selected contract
-Option ask,8.60,2026-10-16,Synthetic,Selected contract
-DCF value,106,2026-10-16,Student model,Per diluted share
-Comparable value,101,2026-10-16,Student model,Per diluted share
+input,value,observation_date,source,method_note,source_url
+spot,39.42,2026-11-13,Seeking Alpha options page,Underlying close aligned with option chain,https://seekingalpha.com/symbol/YETI/options
+strike,40.0,2026-11-13,Seeking Alpha options page,Selected near-the-money Nov. 20 call,https://seekingalpha.com/symbol/YETI/options
+market_bid,0.8,2026-11-13,Seeking Alpha options page,Delayed quote; last trade displayed Nov. 12,https://seekingalpha.com/symbol/YETI/options
+market_ask,1.2,2026-11-13,Seeking Alpha options page,Delayed quote; wide spread means midpoint is mechanical,https://seekingalpha.com/symbol/YETI/options
+volume,129,2026-11-13,Seeking Alpha options page,Contracts,https://seekingalpha.com/symbol/YETI/options
+open_interest,80,2026-11-13,Seeking Alpha options page,Contracts,https://seekingalpha.com/symbol/YETI/options
+volatility,0.379,2026-11-13,Market Chameleon,"Expiration-level ATM IV, not strike-specific IV",https://marketchameleon.com/Overview/YETI/OptionChain
+risk_free_rate,0.0432,2026-11-13,FRED DGS3MO,3-month constant-maturity Treasury used as short-rate proxy,https://fred.stlouisfed.org/series/DGS3MO
+dividend_yield,0.0,2026-11-13,Model assumption,No cash dividend modeled; verify against issuer actions,
+dcf_value,37.2974910118166,2026-09-15,YETI Valuation Workbook.xlsx,"Prior DCF, WACC about 11.5%, terminal growth 3.0%",
+comps_value,49.8128904048684,2026-09-15,YETI Valuation Workbook.xlsx,EV/EBITDA comparable-company base value,
+analyst_targets,See analyst_targets.csv,2026-08-14 to 2026-10-27,Stockbase,Individual 12-month targets; horizon materially exceeds option maturity,https://www.stockbase.com/stocks/YETI/forecast
